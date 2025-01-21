@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon bug in Kotlin involving the `removeIf` and `removeAll` functions when used with mutable lists. The bug arises when the predicate used in these functions modifies the list's size during iteration, leading to unexpected results.  The `bug.kt` file shows the erroneous behavior, and `bugSolution.kt` provides a corrected approach.
